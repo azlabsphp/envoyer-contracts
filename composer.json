@@ -1,0 +1,24 @@
+{
+    "name": "drewlabs/envoyer-contracts",
+    "description": "Provides interfaces or abstractions for envoyer client and drivers implementation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Envoyer\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "asmyns.platonnas29@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
