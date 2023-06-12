@@ -13,12 +13,10 @@ declare(strict_types=1);
 
 namespace Drewlabs\Envoyer\Contracts;
 
-interface EncryptionAware
+interface DriverFactoryInterface
 {
     /**
-     * return the `encryption` value.
-     *
-     * @return string|null
+     * Creates new driver instance.
      */
-    public function getEncryption();
+    public function create(): ClientInterface;
 }
